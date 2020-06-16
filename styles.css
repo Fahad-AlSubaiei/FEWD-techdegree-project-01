@@ -57,8 +57,9 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/photo.jpg') no-repeat top center ;
   background-size: cover;
+  background-position: center;
   overflow: hidden;
   padding-top: 60px;
 }
@@ -69,8 +70,8 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 100%;
+  border: 19px solid rgb(76, 93, 142);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -204,4 +205,16 @@ a.social:hover {
   }
 
 }
-
+.dodo {
+  margin: 110px;
+  padding: 20px 50px 50px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.dodo:hover {
+  border-color: #ff99ff;
+}
