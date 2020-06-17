@@ -205,9 +205,9 @@ a.social:hover {
   }
 
 }
-.dodo {
+.card-02 {
   margin: 110px;
-  padding: 20px 50px 50px;
+  padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #fff;
@@ -215,6 +215,10 @@ a.social:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.dodo:hover {
+.card-02:hover {
   border-color: #ff99ff;
+}
+.profile-image-02{
+  padding-top: 45px;
+  padding-bottom: 200px;
 }
